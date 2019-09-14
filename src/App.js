@@ -21,7 +21,7 @@ function App() {
     const lowercaseText = checkedState
       ? text
           .toLocaleLowerCase()
-          .replace(/\./gi, '')
+          .replace(/\./gi, '-')
           .replace(/\s/gi, '')
       : text
     setText('')
