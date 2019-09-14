@@ -58,7 +58,7 @@ function App() {
         {outputText === '' ? (
           <div className='output__main-content'>No data to display.</div>
         ) : (
-          <div className='output__main-content'>{outputText}</div>
+          <textarea className='output__textarea' cols='30' rows='10' value={outputText} />
         )}
       </main>
     </div>
