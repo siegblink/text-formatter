@@ -30,6 +30,8 @@ function App() {
 
   return (
     <div className='app'>
+      <header className='header'>textFormatter</header>
+
       <form className='form' onSubmit={handleSubmit}>
         <div className='checkbox'>
           <input
@@ -51,14 +53,14 @@ function App() {
         </div>
       </form>
 
-      <div className='output'>
+      <main className='output'>
         <div className='output__header-text'>Output</div>
         {outputText === '' ? (
           <div className='output__main-content'>No data to display.</div>
         ) : (
           <div className='output__main-content'>{outputText}</div>
         )}
-      </div>
+      </main>
     </div>
   )
 }

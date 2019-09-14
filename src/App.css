@@ -13,10 +13,20 @@
   color: #61dafb;
 }
 
+/* header styles */
+
+.header {
+  width: 100vw;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem;
+}
+
 /* form styles */
 
 .form {
-  width: 75vw;
+  width: 50vw;
   margin: 3rem auto;
   margin-bottom: 1rem;
 }
@@ -59,8 +69,10 @@
   font-size: 12px;
 }
 
+/* output styles */
+
 .output {
-  width: 75vw;
+  width: 50vw;
   min-height: 50vh;
   margin: 0 auto;
   display: flex;
